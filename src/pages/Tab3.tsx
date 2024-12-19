@@ -38,6 +38,8 @@ const Tab3: React.FC = () => {
                 <h4>{item.post_title}</h4>
                 <p>{item.other_description}</p>
                 <address>{item.other_address}</address>
+                <p>{item.other_band}</p>
+                <p>{item.other_record_label}</p>
               </IonLabel>
             </IonItem>
           ))}

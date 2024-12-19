@@ -39,6 +39,7 @@ const Tab1: React.FC = () => {
                 <p>{item.thing_description}</p>
                 <address>{item.thing_address}</address>
                 <IonImg src={item.guid} />
+                <p>{item.thing_band}</p>
               </IonLabel>
             </IonItem>
           ))}
